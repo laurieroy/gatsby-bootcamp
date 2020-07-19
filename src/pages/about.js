@@ -11,7 +11,7 @@ const AboutPage = () => {
                 used Matlab,  and did some editing of files in JS, VB, python 
                 and sometimes managed networks. Working as a technician on 
                 Oceanographic research ships was engaging work that allowed me
-                to meet interesting people, travel to many places for work, and 
+                to meet interesting people, travel around the world, and 
                 to enjoy water sports. 
             </p>
             <p>I enjoy learning and trying new things. I am now looking for a new place to live
