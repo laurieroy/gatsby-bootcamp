@@ -34,17 +34,6 @@ const BlogPage = () => {
                         )
                     })}
                 </ol>
-         
-            {/* <h2> */}
-              {/* <Link className={blogStyles.title} to="/"> */}
-                {/* { data.site.siteMetadata.title} */}
-              {/* </Link> */}
-            {/* </h2>  */}
-            <p>            
-              {/* <Link className={blogStyles.date} to="/"> */}
-                {/* { data.site.siteMetadata.date} */}
-              {/* </Link> */}
-            </p>
         </Layout>
     )
 }
