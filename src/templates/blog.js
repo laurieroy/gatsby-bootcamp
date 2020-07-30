@@ -2,10 +2,10 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-const blog = () => {
+const Blog = () => {
     return (
         <Layout>
-            This is blog template
+            This is the blog template
         </Layout>
     )
 

@@ -9,12 +9,10 @@ const BlogPage = () => {
             allMarkdownRemark {
             edges {
                 node {
-                frontmatter {
-                    title
-                    date
-                }
-                html
-                excerpt
+                    frontmatter {
+                        title
+                        date
+                    }
                 }
             }
             }
