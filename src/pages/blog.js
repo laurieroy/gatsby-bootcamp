@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
 
@@ -12,6 +12,9 @@ const BlogPage = () => {
                     frontmatter {
                         title
                         date
+                    }
+                    fields{
+                        slug
                     }
                 }
             }
@@ -26,8 +29,10 @@ const BlogPage = () => {
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
                             <li>
-                                <h2>{edge.node.frontmatter.title}</h2>
-                                <p>{edge.node.frontmatter.date}</p>
+                                <Link to={`/blog/${edge.node.fields.slug}`}>
+                                    <h2>{edge.node.frontmatter.title}</h2>
+                                    <p>{edge.node.frontmatter.date}</p>
+                                </Link>
                             </li>
                         )
                     })}
@@ -37,9 +42,3 @@ const BlogPage = () => {
 }
 
 export default BlogPage
-
-//Goal : show list of posts on blog posts
-// query the title and date for each post in blog Component
-// render order list
-// render a lit w/requested h2 title a p date
-//-render array of objects
