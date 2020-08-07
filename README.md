@@ -5,7 +5,9 @@ Created with the Gatsby hello-world boilerplate. This starter ships with the mai
     # create a new Gatsby site using the hello-world starter
     gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
     ```
+I follwed Andrew Mead's video on [youtube](https://www.youtube.com/watch?v=8t0vNu2fCCM&t=517s) 
 
+# The site is currently serving content from contentful, but is also set up to use markdown.
 
 ## 🧐 What's inside?
 
